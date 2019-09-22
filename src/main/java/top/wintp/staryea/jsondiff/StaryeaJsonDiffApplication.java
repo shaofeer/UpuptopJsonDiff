@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StaryeaJsonDiffApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootandesApplication.class, args);
+        SpringApplication.run(StaryeaJsonDiffApplication.class, args);
     }
 
 }

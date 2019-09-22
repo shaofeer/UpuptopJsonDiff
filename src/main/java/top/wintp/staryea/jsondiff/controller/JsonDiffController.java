@@ -1,7 +1,6 @@
-package top.wintp.staryea.jsondiff.springbootandes.controller;
+package top.wintp.staryea.jsondiff.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.serializer.SerializerFeature;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,8 +11,8 @@ import java.util.TreeMap;
 
 import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.StrUtil;
-import top.wintp.springbootandes.springbootandes.utils.MyJsonUtils;
-import top.wintp.staryea.jsondiff.springbootandes.utils.MyJsonUtils;
+import cn.hutool.json.JSONUtil;
+import top.wintp.staryea.jsondiff.utils.MyJsonUtils;
 
 /**
  * @author: pyfysf
@@ -39,7 +38,10 @@ public class JsonDiffController {
             Console.log("json 为空");
             return "{}";
         }
-
+        if (!JSONUtil.isJson(json)) {
+            Console.log("不是json");
+            return "{}";
+        }
         Map<String, Object> stringObjectTreeMap = JSONObject.parseObject(json, TreeMap.class);
 
         stringObjectTreeMap = MyJsonUtils.parserObject(stringObjectTreeMap);

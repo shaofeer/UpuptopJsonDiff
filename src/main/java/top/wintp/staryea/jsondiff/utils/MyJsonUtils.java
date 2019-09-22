@@ -1,4 +1,4 @@
-package top.wintp.staryea.jsondiff.springbootandes.utils;
+package top.wintp.staryea.jsondiff.utils;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
