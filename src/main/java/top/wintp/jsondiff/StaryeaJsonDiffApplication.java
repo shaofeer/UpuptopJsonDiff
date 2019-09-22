@@ -1,4 +1,4 @@
-package top.wintp.staryea.jsondiff;
+package top.wintp.jsondiff;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

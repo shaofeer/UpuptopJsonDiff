@@ -1,4 +1,5 @@
-package top.wintp.staryea.jsondiff.controller;
+package top.wintp.jsondiff.controller;
+
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -12,7 +13,7 @@ import java.util.TreeMap;
 import cn.hutool.core.lang.Console;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
-import top.wintp.staryea.jsondiff.utils.MyJsonUtils;
+import top.wintp.jsondiff.utils.MyJsonUtils;
 
 /**
  * @author: pyfysf

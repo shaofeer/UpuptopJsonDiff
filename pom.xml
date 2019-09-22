@@ -8,11 +8,11 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>top.wintp.springbootandes</groupId>
-    <artifactId>StaryeaJsonDiff</artifactId>
+    <groupId>top.wintp.jsondiff</groupId>
+    <artifactId>UpuptopJsonDiff</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>StaryeaJsonDiff</name>
-    <description>Demo project for Spring Boot</description>
+    <name>UpuptopJsonDiff</name>
+    <description>upuptop json data diff project</description>
 
     <properties>
         <java.version>1.8</java.version>
