@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+        $(function () {
+            var data = {
+                name: "Apple",
+                age: "18",
+                location: "Beijing"
+            };
+            $("#search_one_result").val(JSON.stringify(data, null, "\t"));
+            $("#search_one_result").val(JSON.stringify(data, null, 4));
+        });
+    </script>
+</head>
+<body>
+<textarea id="search_one_result" cols="50" rows="10" style="margin-top: 30px"></textarea>
+</body>
+</html>
